@@ -1,0 +1,58 @@
+
+@media (max-width: 375px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    header img {
+        margin: 20px 0; /* Reduz margens do logo */
+        width: 180px; /* Ajusta o tamanho do logo */
+    }
+
+    main {
+        flex-direction: column; /* Coloca os elementos em coluna */
+        align-items: center; /* Centraliza os itens no main */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    main img {
+        padding: 0;
+        width: 100%; /* Ajusta a largura da imagem para caber na tela */
+        max-width: 300px; /* Tamanho máximo da imagem */
+    }
+
+    main .description {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .description .main-title {
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    main .description .main-info {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    main .description .button-register {
+        width: 100%;
+        width: 250px;
+        margin: 20px 10px 20px 40px;
+    }
+
+    footer .social {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    footer .social .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 16px; 
+        padding: 5px;
+    }
+}

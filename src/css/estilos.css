@@ -1,0 +1,82 @@
+html {
+    font-family: "Poppins", serif;
+}
+
+body {
+    background: url("../images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+}
+
+header img {
+    width: 210px;
+    margin: 55px 75px;
+}
+
+main {
+    display: flex;
+}
+
+main img {
+    padding: 27px 0px 0px 75px;
+}
+
+main .description {
+    padding: 50px;
+}
+
+main .description .main-title {
+    font-size: 38px;
+    color: #fff;
+    margin-top: 20px;
+}
+
+main .description .main-info {
+    margin-top: 27px;
+    color: #fff;
+    font-size: 16px;
+}
+
+main .description .button-register {
+    padding: 16px 70px 16px;
+    margin-top: px;
+    background-color: #fff;
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    border-radius: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+main .description .button-register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+main .description .button-register .register {
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+}
+
+footer .social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 20px;
+}
+
+footer .social .icon {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border: solid 1px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: 0.3s;
+    padding: 10px;
+}
+
+footer .social .icon:hover {
+    color: hsl(300, 69%, 71%);
+}
